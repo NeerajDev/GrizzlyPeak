@@ -1,0 +1,309 @@
+
+/*Main Window*/
+
+MyMainWindow{background-image: url(:/images/bg.png); background-repeat:no-repeat; background-color:#882459;}
+
+
+/*Header Styles*/
+
+QHBoxLayout#layoutHeader{ margin:0 10px 0 10px;}
+
+
+
+/*Label Styles*/
+
+QLabel#m_ptr_copyright_label{ background-image: url(:/images/copyright.png); margin:15px 0 5px 0; background-repeat:no-repeat; border:0; background-position:center;}
+
+QLabel#m_ptr_title_label{color: rgb(255, 255, 255); font: 20pt Whitney Black; text-align:right; margin:2px 0 0 0;}
+
+QLabel#m_ptr_clock_label{color: rgb(136, 36, 89); font: 18pt Whitney Semibold; text-align:center;}
+
+QPushButton#m_ptr_home_button{background-image: url(:/images/homebtn.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+QPushButton::pressed#m_ptr_home_button{background-image: url(:/images/homebtn_pressed.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+
+
+/*Tabs Styles*/
+
+
+QTabWidget#m_ptr_tab_widget{color: rgb(255, 255, 255); font: 14pt Whitney Black; border:0px; background-color:transparent; }
+
+QTabWidget::Pane{border:0px}
+
+
+QTabWidget::tab-bar {left: 60px;}
+
+QTabBar::tab{ padding: 10px 0 10px 0; min-width:118px;  border-left: 1px solid qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(121, 23, 74, 255), stop:1 rgba(0, 0, 0, 255)); border-right: 1px solid qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(121, 23, 74, 255), stop:1 rgba(0, 0, 0, 255)); color: rgb(255, 255, 255);}
+
+
+QTabBar::tab:selected{ background-color: qlineargradient(spread:pad, x1:0.506, y1:0.943591, x2:0.5, y2:0, stop:0 rgba(249, 193, 221, 255), stop:1 rgba(255, 255, 255, 255)); color: rgb(136, 36, 89);}
+
+QTabBar::tab:hover, QTabBar::tab:selected:hover{ background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(57, 0, 35, 255), stop:0.75 rgba(115, 21, 70, 255), stop:0.96 rgba(163, 58, 109, 255)); color: rgb(255, 255, 255);}
+
+
+
+/*View Text Styles*/
+
+QLabel#m_ptr_source_1_label, QLabel#m_ptr_source_2_label, QLabel#m_ptr_source_3_label, QLabel#m_ptr_source_4_label{color: rgb(255, 255, 255); font:bold 11pt Whitney;}
+
+
+QLabel#m_ptr_source_1_labelBg, QLabel#m_ptr_source_2_labelBg, QLabel#m_ptr_source_3_labelBg, QLabel#m_ptr_source_4_labelBg{ background-image: url(:/images/seperator.png); background-repeat:no-repeat;  background-position:bottom; }
+
+
+QLabel#view_1_source_1_not_defined_label, QLabel#view_1_source_2_not_defined_label, QLabel#view_1_source_3_not_defined_label, QLabel#view_1_source_4_not_defined_label{color: rgb(211, 89, 149); font:bold 11pt Whitney;}
+
+
+
+
+QLabel#View1IdleTaperNone{background-image: url(:/images/taper_none.png); background-repeat:no-repeat;}
+
+QLabel#View1IdleTaperBoth{background-image: url(:/images/taper_both.png); background-repeat:no-repeat;}
+
+QLabel#View1IdleTaperBottom{background-image: url(:/images/taper_bottom.png); background-repeat:no-repeat;}
+
+QLabel#View1IdleTaperTop{background-image: url(:/images/taper_top.png); background-repeat:no-repeat;}
+
+
+/*QLabel#lblEmpty{ background-image: url(:/images/empty_seperator.png); background-repeat:no-repeat; background-position:top;}*/
+
+/*QLabel#sourceEmptyTxt{color: rgb(211, 89, 149); font: bold 9.6pt Arial;}*/
+
+/*
+QLabel#view_1_source_1_not_defined_label{color: rgb(211, 89, 149); font: bold 9.6pt Arial;}
+QLabel#view_1_source_2_not_defined_label{color: rgb(211, 89, 149); font: bold 9.6pt Arial;}
+QLabel#view_1_source_3_not_defined_label{color: rgb(211, 89, 149); font: bold 9.6pt Arial;}
+QLabel#view_1_source_4_not_defined_label{color: rgb(211, 89, 149); font: bold 9.6pt Arial;}
+*/
+
+/*QLabel#m_ptr_source_3_label{color: rgb(211, 89, 149); font:bold 13pt Whitney;}*/
+
+QLabel#m_ptr_no_sources_label{color: rgb(211, 89, 149); font:bold 13pt Whitney;}
+
+
+
+QLabel#m_ptr_source_1_idle_label, QLabel#m_ptr_source_2_idle_label, QLabel#m_ptr_source_3_idle_label, QLabel#m_ptr_source_4_idle_label{background-image: url(:/images/idle1bg.png);background-repeat:no-repeat; }
+
+/*View 2 and 3 Styles*/
+
+QPushButton#m_ptr_view_2_previous_day_push_button, QPushButton#m_ptr_view_3_previous_month_push_button, QPushButton#m_ptr_view_4_previous_year_push_button, QPushButton#m_ptr_view_4_next_year_push_button{background-image: url(:/images/previous_btn.png); background-repeat:no-repeat; width:41px; height:36px; border:0; }
+
+QPushButton::pressed#m_ptr_view_2_previous_day_push_button, QPushButton::pressed#m_ptr_view_3_previous_month_push_button, QPushButton::pressed#m_ptr_view_4_previous_year_push_button{background-image: url(:/images/previous_btn_pressed.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+
+QPushButton#m_ptr_view_2_next_day_push_button, QPushButton#m_ptr_view_3_next_month_push_button, QPushButton#m_ptr_view_4_next_year_push_button{background-image: url(:/images/next_btn.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+QPushButton::pressed#m_ptr_view_2_next_day_push_button, QPushButton::pressed#m_ptr_view_3_next_month_push_button, QPushButton::pressed#m_ptr_view_4_next_year_push_button{background-image: url(:/images/next_btn_pressed.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+
+QPushButton#m_ptr_view_2_next_day_push_button__disabled, QPushButton#m_ptr_view_3_next_month_push_button__disabled, QPushButton#m_ptr_view_4_next_year_push_button__disabled{background-image: url(:/images/next_btn_disabled.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+
+QPushButton#m_ptr_view_2_note_push_button{background-image: url(:/images/note_icon.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+
+QPushButton#m_ptr_view_2_note_push_off_button{background-image: url(:/images/note_icon_off.png); background-repeat:no-repeat; width:41px; height:36px; border:0;}
+
+
+QLabel#m_ptr_view_2_date_label, QLabel#m_ptr_view_3_month_label, QLabel#m_ptr_view_4_year_label{color: rgb(255, 255, 255); font: 16pt Whitney Black;}
+
+
+
+QLabel#m_ptr_view_2_high_temperature_label{color: rgb(255, 141, 197); font:10pt Whitney Semibold;}
+
+QLabel#m_ptr_view_2_low_temperature_label{color: rgb(255, 141, 197); font:10pt Whitney Semibold;}
+
+
+QLabel#lblTotal, QLabel#m_ptr_view_3_total_label, QLabel#m_ptr_view_4_total_label{color: rgb(255, 141, 197); font:10pt Whitney Black;}
+
+QLabel#lblTotal{padding:9px 0 0 0;}
+
+QLabel#lblTotalValue, QLabel#m_ptr_view_3_total_value_label, QLabel#m_ptr_view_4_total_value_label{color: rgb(255, 255, 255); font:15pt Whitney Black; margin:0 5px 0 0;}
+
+
+/*Interactive Segmented Bar Styles*/
+
+QLabel#m_ptr_view_2_title_label{color: rgb(255, 255, 255); font: bold 11pt Whitney;}
+
+QFrame#m_ptr_bubble_frame{background-image: url(:/images/tooltip_bg.png); background-repeat:no-repeat; width:160px; height:84px; border:0;}
+
+QLabel#m_ptr_bubble_source_text_label{color: rgb(136, 36, 89); font: 13pt Whitney Black;}
+
+QLabel#m_ptr_bubble_usage_text_label{color: rgb(201, 72, 135); font: 11pt Whitney;}
+
+
+QSlider::groove:horizontal#m_ptr_arrow_slider{ background-color: none; border: 0;}
+
+QSlider::handle:horizontal#m_ptr_arrow_slider{ background-image: url(:/images/slider.png); background-repeat:no-repeat; width:36px; height:55px;}
+
+QSlider::handle:horizontal::pressed#m_ptr_arrow_slider{ background-image: url(:/images/slider_pressed.png); }
+
+
+QLabel#m_ptr_origin_help_text_bubble{background-image: url(:/images/slideUsage.png); background-repeat:no-repeat; width:307px; height:56px; border:0; color: rgb(136, 36, 89); font:bold 10pt Whitney; padding:0 0 0 20px;}
+
+
+QLabel#lblsetupDataSource{color: rgb(211, 89, 149); font:bold 11pt Whitney;}
+
+
+/*Graph Styles*/
+
+QLabel#m_y_axis_0_percentile_data_label, QLabel#m_y_axis_20_percentile_data_label, QLabel#m_y_axis_40_percentile_data_label, QLabel#m_y_axis_60_percentile_data_label, QLabel#m_y_axis_80_percentile_data_label, QLabel#m_y_axis_100_percentile_data_label,QLabel#m_time_label{color: rgb(255, 141, 197); font:bold 11pt Whitney;}
+
+QLabel#m_y_axis_0_percentile_data_label, QLabel#m_y_axis_20_percentile_data_label, QLabel#m_y_axis_40_percentile_data_label, QLabel#m_y_axis_60_percentile_data_label, QLabel#m_y_axis_80_percentile_data_label, QLabel#m_y_axis_100_percentile_data_label{padding:0 5px 0 0;}
+
+
+QLabel#m_remainder_percentage_bar_label, QLabel#lblThisYearGraph{background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.502415, stop:0 rgba(121, 23, 74, 255), stop:1 rgba(49, 0, 30, 255)); border: 1px solid rgb(85,0,42);}
+
+QLabel#m_selected_source_percentage_bar_label{background-color:qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.478667, stop:0 rgba(134, 60, 0, 255), stop:1 rgba(241, 230, 51, 255)); border: 1px solid rgb(194,163,54); border-right: 1px solid rgb(108,31,66); border-bottom: 0px;}
+
+QLabel#lblSource2Selected{background-color: qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.478667, stop:0 rgba(30, 3, 54, 255), stop:1 rgba(188, 149, 226, 255));}
+
+QLabel#lblSource3Selected{background-color: qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.478667, stop:0 rgba(30, 3, 54, 255), stop:1 rgba(130, 170, 79, 255));}
+
+QLabel#lblSource4Selected{background-color: qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:0.478667, stop:0 rgba(30, 3, 54, 255), stop:1 rgba(0, 204, 255, 255));}
+
+QLabel#lblgraphSeperator, QLabel#lblgraphSeperator_10, QLabel#lblgraphSeperator_8, QLabel#lblgraphSeperator_6, QLabel#lblgraphSeperator_4, QLabel#lblgraphSeperator_2{background-image: url(:/images/graphseperator.png); background-repeat:no-repeat; width:481px; height:1px; border:0;}
+
+
+QLabel#xAxisSeperator, QLabel#yAxisSeperator{ background-color:rgb(201,72,135);}
+
+QLabel#lblFaderLeft{background-color: qlineargradient(spread:pad, x1:0.15, y1:0.5, x2:1, y2:0.5, stop:0 rgba(136, 36, 89, 255), stop:1 rgba(136, 36, 89, 0));}
+
+QLabel#lblFaderRight{background-color: qlineargradient(spread:pad, x1:0.50, y1:0.5, x2:0, y2:0.5, stop:0 rgba(136, 36, 89, 255), stop:1 rgba(136, 36, 89, 0));}
+
+QLabel#lblLastYearGraph{border: 1px solid rgb(85,0,42); backgroung-color:rgb(136,36,89);}
+
+QLabel#lblBaselineGraph{background-image: url(:/images/baseline_icon.png); background-repeat:no-repeat; background-position:bottom; }
+
+QLabel#lblThisYearTxt, QLabel#lblLastYearTxt, QLabel#lblBaseLineTxt{ font:10pt Whitney; color:rgb(255,141,197);}
+
+QLabel#lblThisYearTxt, QLabel#lblLastYearTxt{margin:0 5px 0 0;}
+
+
+/*Slide Bg Styles*/
+
+QFrame#m_ptr_segmented_bar_frame{background-color: qlineargradient(spread:pad, x1:0.5, y1:0.991892, x2:0.5, y2:0, stop:0 rgba(57, 2, 35, 255), stop:0.75 rgba(115, 21, 70, 255), stop:0.94 rgba(163, 58, 109, 255)); border: 1px solid rgb(110,20,68);}
+
+
+QRadioButton#m_ptr_src_1_bar{background-color: qlineargradient(spread:pad, x1:0.5, y1:0.991892, x2:0.5, y2:0, stop:0 rgba(30, 3, 54, 255), stop:0.8 rgba(188, 149, 226, 255), stop:0.869521 rgba(209, 177, 242, 255), stop:0.97 rgba(209, 177, 242, 255), stop:1 rgba(188, 149, 226, 255)); border: 1px solid rgb(110,20,68);}
+
+QRadioButton#m_ptr_src_2_bar{background-color: qlineargradient(spread:pad, x1:0.5, y1:0.991892, x2:0.5, y2:0, stop:0 rgba(134, 41, 0, 255), stop:0.8 rgba(241, 230, 51, 255), stop:0.87 rgba(253, 251, 218, 255), stop:0.97 rgba(253, 251, 218, 255), stop:1 rgba(241, 230, 51, 255)); border: 1px solid rgb(110,20,68);}
+
+QRadioButton#m_ptr_src_3_bar{background-color: qlineargradient(spread:pad, x1:0.5, y1:0.991892, x2:0.5, y2:0, stop:0 rgba(54, 92, 6, 255), stop:0.8 rgba(168, 221, 100, 255), stop:0.87 rgba(224, 252, 189, 255), stop:0.97 rgba(253, 251, 218, 255), stop:1 rgba(205, 234, 168, 255)); border: 1px solid rgb(110,20,68);}
+
+QRadioButton#m_ptr_src_4_bar{background-color: qlineargradient(spread:pad, x1:0.5, y1:0.991892, x2:0.5, y2:0, stop:0 rgba(0, 93, 116, 255), stop:0.8 rgba(51, 214, 255, 255), stop:0.87 rgba(211, 246, 255, 255), stop:0.97 rgba(232, 250, 255, 255), stop:1 rgba(230, 250, 255, 255)); border: 1px solid rgb(110,20,68);}
+
+
+QRadioButton#m_ptr_src_1_bar::indicator, QRadioButton#m_ptr_src_2_bar::indicator, QRadioButton#m_ptr_src_3_bar::indicator, QRadioButton#m_ptr_src_4_bar::indicator, QRadioButton#m_ptr_other_bar::indicator{ width:0px; height:0px;}
+
+
+QRadioButton#m_ptr_other_bar{background-color: qlineargradient(spread:pad, x1:0.5, y1:0.991892, x2:0.5, y2:0, stop:0 rgba(57, 2, 35, 255), stop:0.75 rgba(115, 21, 70, 255), stop:0.94 rgba(163, 58, 109, 255)); border-top: 1px solid rgb(110,20,68); border-bottom: 1px solid rgb(110,20,68);}
+
+
+/*Unchecked Slider Style*/
+
+QRadioButton#m_ptr_src_1_bar::unchecked, QRadioButton#m_ptr_src_2_bar::unchecked, QRadioButton#m_ptr_src_3_bar::unchecked, QRadioButton#m_ptr_src_4_bar::unchecked{background-color: qlineargradient(spread:pad, x1:0.5, y1:0.991892, x2:0.5, y2:0, stop:0 rgba(121, 23, 74, 255), stop:0.75 rgba(254, 146, 220, 255), stop:0.890424 rgba(240, 185, 234, 255), stop:1 rgba(239, 130, 228, 255)); border-top: 1px solid rgb(110,20,68); border-bottom: 1px solid rgb(110,20,68);}
+
+
+/*Note Styles*/
+
+QLabel#lblwindowBg{ background-color: rgba(29, 1, 17, 225);}
+
+
+QPushButton#m_ptr_cancel_push_button, QPushButton#m_ptr_edit_push_button{background-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(57, 2, 35, 255), stop:0.75 rgba(115, 21, 70, 255), stop:0.94 rgba(163, 58, 109, 255)); border: 1px solid rgb(110,20,68); border-radius:8px; color:rgb(255,255,255);font: bold 10pt Whitney;}
+
+
+QPushButton::pressed#m_ptr_edit_push_button, QPushButton::pressed#m_ptr_cancel_push_button, QPushButton::pressed#m_ptr_close_edit_push_button{background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(163, 58, 109, 255), stop:0.25 rgba(115, 21, 70, 255), stop:0.94 rgba(57, 2, 35, 255));}
+
+
+QLabel#m_ptr_text_label{color:rgb(255,255,255);font: bold 10pt Whitney;}
+
+
+
+QPushButton#m_ptr_close_edit_push_button{background-color:qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(57, 2, 35, 255), stop:0.75 rgba(115, 21, 70, 255), stop:0.94 rgba(163, 58, 109, 255)); border: 1px solid rgb(110,20,68); border-radius:8px; background-image: url(:/images/close_edit_btn.png); background-repeat:no-repeat; background-position:center;}
+
+
+
+QLabel#m_ptr_instructions_label{color: rgb(255, 255, 255); font: 14pt Whitney Black; }
+
+QLabel#m_ptr_notes_on_today_label{color: rgb(255, 255, 255); font: 16pt Whitney Black; }
+
+
+
+QPlainTextEdit#m_ptr_note_text_edit_box{color: rgb(177, 177, 177); font: bold 11pt Whitney; border-style: solid; border-width: 2px; border-radius: 5px; border-color: rgb(159,159,159); padding:10px; background-color: rgb(255, 255, 255);}
+
+QLabel#lblAddNoteBg{background-color: rgb(136, 36, 89); border-bottom-right-radius:15px; border-bottom-left-radius:20px;}
+
+
+
+
+QPushButton#m_ptr_done_push_button{background-image: url(:/images/done_btn.png); background-repeat:no-repeat; width:80px; height:34px; border:0; color: rgb(255, 255, 255); font: bold 10pt Whitney;}
+
+QPushButton::pressed#m_ptr_done_push_button{background-image: url(:/images/done_btn_pressed.png); }
+
+QLabel#lblnoteTopBar{background-image: url(:/images/noteTopBar.png);  background-repeat:no-repeat; width:562px; height:53px;}
+
+QLabel#lblnoteSeperator{ background-color: rgb(149, 43, 98);}
+
+QLabel#lblSeperator, QLabel#lblSeperator2, QLabel#lblSeperator3, QLabel#lblSeperator_view3_1, QLabel#lblSeperator_view3_2, QLabel#lblSeperator_4_1, QLabel#lblSeperator_4_2, QLabel#lblSeperator_4_3{ border-top: 1px solid rgb(149,43,98); border-bottom: 1px solid rgb(162,50,107);}
+
+
+
+/*Keyboard Styles*/
+
+
+QWidget#WidgetKeyboard{background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(120, 32, 79, 255), stop:0.93 rgba(151, 40, 99, 255), stop:1 rgba(187, 50, 122, 255)); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+
+QToolButton{background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(59, 59, 59, 55), stop:0.08 rgba(0, 0, 0, 55), stop:1 rgba(166, 166, 166, 55)); border-radius: 5px; font: 20pt Whitney Book;  color: rgb(255, 255, 255);  padding:0px 8px 0px 8px; margin:10px 2px 0 0; border: 1px solid rgb(101,27,66);  border-top: 1px solid rgb(221,124,176);  border-bottom: 2px solid rgb(64,18,43); min-height:60px;}
+
+
+QToolButton::pressed, QToolButton#btnBackSpace::pressed{background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(187, 50, 122, 255), stop:0.142391 rgba(151, 40, 99, 255), stop:1 rgba(120, 32, 79, 255));}
+
+
+QPushButton#m_ptr_minimize_keyboard_button{background-image: url(:/images/minimize_keyboard_icon.png); background-repeat:no-repeat; border:0; background-position:center; background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(186, 49, 122, 255), stop:0.890212 rgba(192, 70, 135, 255));  border-top-left-radius: 10px; border-top-right-radius: 10px; border-top: 1px solid rgb(221,124,176);  border-bottom: 0px;  border-right: 0px; border-left: 2px solid rgb(118,31,77);  min-height:60px;}
+
+QPushButton#m_ptr_maximize_keyboard_button{background-image: url(:/images/maximize_keyboard_icon.png); background-repeat:no-repeat; border:0; background-position:center; background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(186, 49, 122, 255), stop:0.890212 rgba(192, 70, 135, 255));  border-top-left-radius: 10px; border-top-right-radius: 10px; border-top: 1px solid rgb(221,124,176);  border-bottom: 0px;  border-right: 0px; border-left: 2px solid rgb(118,31,77);  min-height:60px;}
+
+QToolButton#btnReturn{background-image: url(:/images/return_key.png); background-repeat:no-repeat; border:0; background-position:center; border-top: 1px solid rgb(221,124,176);  border-bottom: 2px solid rgb(64,18,43);  min-height:60px;}
+
+QToolButton#btnShiftRight{background-image: url(:/images/shift_key.png); background-repeat:no-repeat; border:0; background-position:center;  background-color:qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(12, 3, 8, 175), stop:1 rgba(117, 31, 77, 200)); border-radius: 5px;border-top: 1px solid rgb(21,6,14);  border-right: 1px solid rgb(83,22,53); border-left: 1px solid rgb(83,22,53); border-bottom: 1px solid rgb(83,22,53);  min-height:60px;}
+
+
+QToolButton#btnShiftRight::pressed{background-color:qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:1 rgba(12, 3, 8, 175), stop:0 rgba(117, 31, 77, 200));}
+
+
+QToolButton#btnBackSpace{background-image: url(:/images/backspace_key.png); background-repeat:no-repeat; border:0; background-position:center; background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(59, 59, 59, 55), stop:0.08 rgba(0, 0, 0, 55), stop:1 rgba(166, 166, 166, 55)); border-radius: 5px; font: 20pt Whitney Book;  color: rgb(255, 255, 255); border-top: 1px solid rgb(221,124,176);  border-bottom: 2px solid rgb(64,18,43); padding:0px 20px 0px 20px;  min-height:60px;}
+
+/* Month view Styles */
+
+QTableWidget#tblHeader{color:rgb(255, 141, 197); font: bold 12px Whitney; border:0; text-align: right;background-color:transparent; padding-top:4px;}
+
+QLabel#lblStart,#lblEnd,#lblNote,#lblDatePicker,#labelVScroller,#labelHScroller,#lblLineEdit,#lblButtons,#lblLineEdit_2,#lblLineEdit_3,#lblLineEdit_4,#lblLineEdit_5,#lblNote_2
+{
+color: rgb(255, 255, 255);
+}
+
+/*QTableWidget#tblDates::Item{
+    border:1px solid rgb(193, 68, 130);
+        text-align: right;
+        font: 15pt Myriad Pro;
+        color: rgb(255, 255, 255);
+}*/
+
+QTableWidget::Item:selected{
+    border:1px solid #4B5057;
+}
+
+
+QFrame#MainFrame{
+    border-radius:0px;
+    border: 0px;
+        color: rgb(255, 255, 255);
+}
+
+QTableWidget#tblDates{
+border:0px;
+font: 18pt Myriad Pro;
+text-align: right;
+background-color:transparent;
+}

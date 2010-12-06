@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles.qss</file>
+        <file>images/backspace_key.png</file>
+        <file>images/baseline_icon.png</file>
+        <file>images/bg.png</file>
+        <file>images/close_edit_btn.png</file>
+        <file>images/cloudy.png</file>
+        <file>images/copyright.png</file>
+        <file>images/done_btn.png</file>
+        <file>images/done_btn_pressed.png</file>
+        <file>images/empty_seperator.png</file>
+        <file>images/graphseperator.png</file>
+        <file>images/homebtn.png</file>
+        <file>images/homebtn_pressed.png</file>
+        <file>images/idle1bg.png</file>
+        <file>images/next_btn.png</file>
+        <file>images/next_btn_disabled.png</file>
+        <file>images/next_btn_pressed.png</file>
+        <file>images/note_icon.png</file>
+        <file>images/note_icon_off.png</file>
+        <file>images/note_icon_pressed.png</file>
+        <file>images/noteTopBar.png</file>
+        <file>images/partly_cloudy.png</file>
+        <file>images/previous_btn.png</file>
+        <file>images/previous_btn_pressed.png</file>
+        <file>images/rain.png</file>
+        <file>images/return_key.png</file>
+        <file>images/seperator.png</file>
+        <file>images/shift_key.png</file>
+        <file>images/slider.png</file>
+        <file>images/slider_pressed.png</file>
+        <file>images/slideUsage.png</file>
+        <file>images/sunny.png</file>
+        <file>images/taper_both.png</file>
+        <file>images/taper_bottom.png</file>
+        <file>images/taper_none.png</file>
+        <file>images/taper_top.png</file>
+        <file>images/tooltip_bg.png</file>
+    </qresource>
+</RCC>

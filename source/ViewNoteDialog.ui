@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewNoteDialog</class>
+ <widget class="QDialog" name="ViewNoteDialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>1024</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>1024</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>View Note</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="lblnoteTopBar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>560</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>560</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblAddNoteBg">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>560</width>
+     <height>775</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>560</width>
+     <height>775</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_ptr_notes_on_today_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>600</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Notes on today</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_ptr_edit_push_button">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>455</y>
+     <width>102</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_ptr_text_label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>215</y>
+     <width>415</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Note Contents</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_ptr_close_edit_push_button">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>88</y>
+     <width>39</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblwindowBg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>1024</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>lblwindowBg</zorder>
+  <zorder>lblnoteTopBar</zorder>
+  <zorder>lblAddNoteBg</zorder>
+  <zorder>m_ptr_notes_on_today_label</zorder>
+  <zorder>m_ptr_edit_push_button</zorder>
+  <zorder>m_ptr_text_label</zorder>
+  <zorder>m_ptr_close_edit_push_button</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
